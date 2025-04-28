@@ -1,0 +1,53 @@
+.hero {
+    height: 100vh;
+    background:rgba(145, 195, 251, 0.552);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero h3 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .steps {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .step {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .step-number {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .step-description {
+    font-size: 1.2rem;
+    text-align: left;
+  }
+  
+  .hero p {
+    font-size: 1.5rem;
+    max-width: 700px;
+  }
+  

@@ -1,0 +1,19 @@
+.privacy {
+    padding: 80px 20px;
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+  }
+  
+  .privacy h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .privacy p {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  

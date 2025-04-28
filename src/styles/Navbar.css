@@ -1,0 +1,79 @@
+/* src/styles/Navbar.css */
+.navbar {
+    width: 100%;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+  
+  .navbar-logo {
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .navbar-logo img {
+    height: 100px; /* adjust size if needed */
+    width: auto;
+    object-fit: contain;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    color: #fff;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .navbar-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+  
+  .navbar-links li a:hover {
+    color: #007bff;
+  }
+  
+  .btn-primary {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  
+  .btn-outline {
+    border: 2px solid #007bff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #007bff;
+  }
+  
+  .btn-outline:hover {
+    background: #007bff;
+    color: white;
+  }
+  .navbar-signup {
+    margin-left: auto;
+  }
+  
+  .signup-button {
+    padding: 10px 20px;
+    background-color: #45a29e; /* teal color from figma */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-button:hover {
+    background-color: #66fcf1;
+  }
